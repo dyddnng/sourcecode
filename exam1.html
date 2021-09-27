@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		회원가입 폼을 만들어 보자.
+		이름 ->text
+		아이디 -> 중복체크버튼
+		비밀번호
+		비밀번호 확인
+		이메일 -> select (naver.com. gmail.com.....
+		연락처
+		메일수신여부 -> radio
+		관심분야 -> checkbox
+		전송(submit), 취소(reset)
+	 -->
+	 
+	 <h1>폼 만들기</h1>
+	<form action = "서버의주소" method = "get/post">
+		<h2>기본정보 입력</h2>
+		<table width = "800" border="1">
+			<tbody>
+				<tr>
+				 	<td class = "row1">이름</td>
+				 	<td>
+				 		<label for = "name"></label>
+				 		<input type = "text" name = "name" id = "name"
+				 		autofocus = "autofocus" placeholder = "e)홍길동">
+				 	</td>
+				</tr>
+				<tr>
+					<td class = "row">아이디</td>
+					<td>
+						<label for = "id"></label>
+						<input type = "text" name = "id" id="id"
+						autofocus = "autofocus">
+						<input type = "button" value = "중복체크">
+					</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	
+	</form> 
+</body>
+</html>
